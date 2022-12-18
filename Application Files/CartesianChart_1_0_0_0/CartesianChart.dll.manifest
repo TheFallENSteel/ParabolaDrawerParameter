@@ -62,22 +62,22 @@
       <dsig:DigestValue>8b8mAXDXj3UiTDNFv+5Rzc0sWp8yirfNrTAP21HET8Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="CartesianChart.dll" size="22016">
+  <file name="CartesianChart.dll" size="23552">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>NQQtnQxQM0PB6iOPRMn1vRlK308V+zYtIXailcSWy4s=</dsig:DigestValue>
+      <dsig:DigestValue>Lvz56BPstKAYy8qTSWifVusJuR2I+uBIP6vsxvvPuUs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="CartesianChart.exe" size="147456">
+  <file name="CartesianChart.exe" size="147968">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>sWdy1amc0HyiNM7yIaBbmSTf+xKw6y4nVZyoa6TPTTg=</dsig:DigestValue>
+      <dsig:DigestValue>Hp8i3hcKq6h+5xdXmRBKKvgQIEa45yQy+WXD/lKz/sI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="CartesianChart.runtimeconfig.json" size="372">
