@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="QuadraticEquationWithParameter.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="QuadraticEquationWithParameter.exe" version="1.0.0.1" publicKeyToken="44207912d4b6a5fa" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="Launcher.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="14336">
-      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17288">
+      <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>c37d7z+hVTrSYULnskUv8/IAe7vvDB8uzv0gzVpm4mU=</dsig:DigestValue>
+        <dsig:DigestValue>x6HoWGPl/HB4wzIvmy+k/WM2t/RCA0QRikIaIrItym8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -89,22 +89,22 @@
       <dsig:DigestValue>19iK1Y4krsmApiBs4qWguj3Xtjz/O4ni3cnk9V94aRc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="QuadraticEquationWithParameter.dll" size="23552">
+  <file name="QuadraticEquationWithParameter.dll" size="24968">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>4OBdpEcQ2nETZk0NA+wKUjpbbtVitzAbKcKjDbjNIAo=</dsig:DigestValue>
+      <dsig:DigestValue>ezkHY4UQwT9xudEF3pYJDhRecLM8BOShvlaF4bEpQck=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="QuadraticEquationWithParameter.exe" size="147456">
+  <file name="QuadraticEquationWithParameter.exe" size="149896">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>xyyVuSBi9L03WZ6guNucvWxU8ldNASE1mHnJZqz72MU=</dsig:DigestValue>
+      <dsig:DigestValue>/KvDh3Zn4TUhLnSfz4BDxFZoXRVzIHwuyW+0DSucm1M=</dsig:DigestValue>
     </hash>
   </file>
   <file name="QuadraticEquationWithParameter.runtimeconfig.json" size="372">
@@ -116,4 +116,4 @@
       <dsig:DigestValue>HsoPDHAHCqg7tgnkt0mybctECXhDJgMnJjlHIiJKCYo=</dsig:DigestValue>
     </hash>
   </file>
-</asmv1:assembly>
+<publisherIdentity name="CN=FESScript" issuerKeyHash="39681546dfd3340f85a5f404cf82f7a0ba2512b9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jsfR9l+6/HWXescib3Uht9U6M3Zr5NmGZGRFKzKeotE=</DigestValue></Reference></SignedInfo><SignatureValue>ciwJmUxKu4Zgvugnw4nuG+UDz/2sZl2IUrraHPyXq3nO67SDLbGKKFDG2O3hlHRjm7xZoVroQiWabwWnyFb6ZhIr8xFRWyt0cHj0fZl7V/c05XYJpMHzCsQrmAyk8/aQ87g6MrdyB6jDa2sIMFoB2R3ETyYitVbH52VJcjQsHIaqRptlsSw4NkzglQfMkCOL22EUHgjROQMHhAe04YnS2HwqAYZSewudjVzSFW7NDuxanPEaRerMMk7oRoQKOLl43kqVRMa3poQpZiAuFaOBoSal6yaf2mkcDkyZmewFtgXfMD11///731TDSWaxXQfbpdbQWSoiI6dnglIUK5FfjQ==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1ObUTdOEU0nUVw+/DWQP7byA3gJ66FN1g3OJsczq9+tDrZhdhjAY20WfwpliLpIf4o0YW1XVpqM6ORQGLmHzX5yaXXtjLB8JyujBn9aQs1wcJvwsm5a1lQmxy4qZCA/IVqBVyaL/TCF3njTHvFxkHY4M2DuKVUzEqoAex1hnuQwOofRsdR/re8wBUsJiHbKugvv5489EB6C9n1AzYoZL1lV/G2h5pHwWiDYj7C0dF/hgJ2I8+89RuNBxHy5QNLzYgmdlXKeUcLvPklzMaJT9X3wLm9cWIdIEts9wgOlteZ/5OFHSi+zvzDK9wZngFUcpYwgluzY7OotWdNUW41OKBQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d1a29e322b45646486d9e46b76333ad5b721756f22c77a9775fcba5ff6d1c78e" Description="" Url=""><as:assemblyIdentity name="QuadraticEquationWithParameter.exe" version="1.0.0.1" publicKeyToken="44207912d4b6a5fa" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FESScript</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>b0DBwCI8Jo3iTgAVXdsryzOXZFspPanOe16u2naYOA4=</DigestValue></Reference></SignedInfo><SignatureValue>c6EBYjolgVIfewCLSokUp2YKhlCgzUscRxrhYX6E6dns8sC/duo11MviMfAY2CSlIeHpBoYpW5TGQp6xkoKnEPPDlj3fwW8fFCPl1dah2zHhIe3iaXY84A4SeyJJxrSwqgrnPrfKMJJUZjwbn2bKTaHo1oeD6L/nmqKA6+2YlCWpVpBNDpsj7JT29P0CuGelkU6lge7JncwMmXYTAxuOjh3O3bXTetL6xeXeXnu+7KK0x1s8Uxqc08tTBLAsgIkhwU/TreGks8vuzhawTx0ds4JrONZBKvlJNDHuTpmjQUK8SghA3ClEm2gDxSZp7IQL2OioYDSI37tji8wXf5g2/w==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1ObUTdOEU0nUVw+/DWQP7byA3gJ66FN1g3OJsczq9+tDrZhdhjAY20WfwpliLpIf4o0YW1XVpqM6ORQGLmHzX5yaXXtjLB8JyujBn9aQs1wcJvwsm5a1lQmxy4qZCA/IVqBVyaL/TCF3njTHvFxkHY4M2DuKVUzEqoAex1hnuQwOofRsdR/re8wBUsJiHbKugvv5489EB6C9n1AzYoZL1lV/G2h5pHwWiDYj7C0dF/hgJ2I8+89RuNBxHy5QNLzYgmdlXKeUcLvPklzMaJT9X3wLm9cWIdIEts9wgOlteZ/5OFHSi+zvzDK9wZngFUcpYwgluzY7OotWdNUW41OKBQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDFDCCAfygAwIBAgIQTU9msAIsRYtCMlyKsdM+TzANBgkqhkiG9w0BAQsFADAUMRIwEAYDVQQDDAlGRVNTY3JpcHQwHhcNMjIxMjI4MTAzMjQ3WhcNMzIxMjI4MTA0MjQ4WjAUMRIwEAYDVQQDDAlGRVNTY3JpcHQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDU5tRN04RTSdRXD78NZA/tvIDeAnroU3WDc4mxzOr360OtmF2GMBjbRZ/CmWIukh/ijRhbVdWmozo5FAYuYfNfnJpde2MsHwnK6MGf1pCzXBwm/CyblrWVCbHLipkID8hWoFXJov9MIXeeNMe8XGQdjgzYO4pVTMSqgB7HWGe5DA6h9Gx1H+t7zAFSwmIdsq6C+/njz0QHoL2fUDNihkvWVX8baHmkfBaINiPsLR0X+GAnYjz7z1G40HEfLlA0vNiCZ2Vcp5Rwu8+SXMxolP1ffAub1xYh0gS2z3CA6W15n/k4UdKL7O/MMr3BmeAVRyljCCW7Njs6i1Z01RbjU4oFAgMBAAGjYjBgMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAaBgNVHREEEzARgg9mZXNzY3JpcHQueGYuY3owHQYDVR0OBBYEFDloFUbf0zQPhaX0BM+C96C6JRK5MA0GCSqGSIb3DQEBCwUAA4IBAQCCce3p8NBP7eHjWTsyXXwRPLWMkdjRg62qv7mgOBhRgYKnQgtYLtcabZfpzlEruu4ymhBDNKCoddh4bVX3h5n6CGfxgzbdkIFBgQvMpb+Lt9j3cdh/d/YOSxX8H8VX0p42bhoDiezwQb76YMWN5kMRmWGc3ALK4aPdhf+S7Ob7JGy1/fZZyGsE+x+KcqJ7kTh2qkai1tWQ2QMunsHqetK5nvMHevB3x5Nf33JeNJAaQ4KwfgYlDnCv6oG8RGPZSAwU+EZdj51InMicRzC247UjVzZ62RbHHONAD4wrTD0TQJwdw4zl3Is7MBXi8PlDvWeKQYaoc1YdKy2lNcXvQKzo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
